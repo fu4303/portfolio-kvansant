@@ -1,0 +1,154 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('../images/stardust.png');
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  background-image: url('../images/cubes.png');
+}
+
+
+#logo {
+  text-align: center;
+  margin: 0;
+  color: black;
+}
+
+h1 {
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+
+}
+ nav li {
+  display: inline-block;
+}
+
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+  color: black;
+}
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.875em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  margin: 0 10px;
+}
+
+.twitter {
+  width: 23px;
+  height: 17px;
+}
+
+.linkedin {
+  width: 23px;
+  height: 22px;
+}
+
+.github {
+  width: 22px;
+  height: 17px;
+}
+/**********************************
+PAGE:PORTFOLIO
+***********************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+
+/**********************************
+PAGE:ABOUT
+***********************************/
+
+#about {
+   background-image: url('../images/cubes.png');
+}
+
