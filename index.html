@@ -15,15 +15,15 @@
         <h1>Kristopher Van Sant</h1>
         <h2>Front End Developer</h2>
       </a>
-      <nav>
-        <ul>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div id="social">
+        <a href="https://twitter.com/rosieebob"><img src="images/darktwitter.png" alt="Twitter Logo" class="twitter social-icon"></a>
+        <a href="https://www.linkedin.com/pub/kristopher-van-sant/58/14/bb4"><img src="images/darklinkedin.png" alt="Linkedin Logo" class="linkedin social-icon"></a>
+        <a href="https://github.com/KVanSant"><img src="images/darkgithub.png" alt="Github Logo" class="github social-icon"></a>
+        <a href="#contact"><img src="images/mail.png" alt="Envelope" class="email social-icon"></a>
+      </div>    
     </header>
     <div id="wrapper">
-    <section>
+    <section id="about">
     </section>
     <section id="projects">
       <h3>Projects</h3>
@@ -53,11 +53,11 @@
     <section id="contact">
       <h3>Say hello!</h3>
         <div class="form">
-        <form>
-          <input type="text" name="field1" placeholder="Full Name" />
-          <input type="email" name="field2" placeholder="Email" />
-          <textarea placeholder="Message" onkeyup="adjust_textarea(this)"></textarea>
-          <input type="button" value="Send Message" />
+        <form action="send.php" method="post">
+          <input type="text" name="name" placeholder="Full Name" />
+          <input type="email" name="email" placeholder="Email" />
+          <textarea placeholder="Message" name="message" onkeyup="adjust_textarea(this)"></textarea>
+          <input type="button" name="send" value="Send Message" />
         </form>
       </div>
     </section>
