@@ -25,6 +25,7 @@ img {
 h3 {
   margin: 0 0 1em 0;
 }
+
 /**********************************
 HEADING
 ***********************************/
@@ -43,7 +44,7 @@ header {
 #logo {
   text-align: center;
   margin: 0;
-  color: #303030;
+  color: #333333;
 }
 
 h1 {
@@ -107,6 +108,7 @@ footer {
   clear: both;
   padding-top: 70px;
   color: #ccc;
+  letter-spacing: 0.04em;
 }
 
 .social-icon {
@@ -128,13 +130,10 @@ footer {
   height: 17px;
 }
 /**********************************
-PAGE:PORTFOLIO
+PORTFOLIO
 ***********************************/
 
-#projects {
-  
 
-}
 
 h3 {
   color: white;
@@ -153,7 +152,6 @@ h3 {
   width: 45%;
   margin: 2.5%;
   background-color: rgba(255,255,255, 0.5);
-  color: #bdc3c7;
   
 }
 
@@ -163,14 +161,75 @@ h3 {
   padding: 5%;
   font-size: 0.85em;
   color: white;
+  letter-spacing: 0.04em;
+}
+
+/**********************************
+CONTACT
+***********************************/
+
+#contact {
+  margin-top: 500px;
 }
 
 
-/**********************************
-PAGE:ABOUT
-***********************************/
+.form {
+    width: 500px;
+    padding: 30px;
+    margin: 50px auto;
+}
 
-#about {
-   background-image: url('../images/cubes.png');
+.form input[type="text"],
+.form input[type="date"],
+.form input[type="datetime"],
+.form input[type="email"],
+.form input[type="number"],
+.form input[type="search"],
+.form input[type="time"],
+.form input[type="url"],
+.form input[type="password"],
+.form textarea,
+.form select 
+
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 20px;
+    height: 45px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.04em;
+}
+.form textarea {
+    resize:none;
+    overflow: hidden;
+}
+
+.form input[type="button"], 
+.form input[type="submit"]{
+    background-color: rgba(255,255,255, 0.5);
+    border: white;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 8px 18px;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+}
+
+.form input[type="button"]:hover, 
+.form input[type="submit"]:hover {
+    background-color: rgba(255,255,255, 0.3);
 }
 

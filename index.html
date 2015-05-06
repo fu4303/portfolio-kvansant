@@ -17,13 +17,14 @@
       </a>
       <nav>
         <ul>
-          <li><a href="index.html" class="selected">Projects</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <div id="wrapper">
+    <section>
+    </section>
     <section id="projects">
       <h3>Projects</h3>
       <div>
@@ -49,13 +50,16 @@
         </ul>
       </div>
     </section>
-    <section id="about">
-      <div>
-        <p></p>
-      </div>
-    </section>
     <section id="contact">
-      <div></div>
+      <h3>Say hello!</h3>
+        <div class="form">
+        <form>
+          <input type="text" name="field1" placeholder="Full Name" />
+          <input type="email" name="field2" placeholder="Email" />
+          <textarea placeholder="Message" onkeyup="adjust_textarea(this)"></textarea>
+          <input type="button" value="Send Message" />
+        </form>
+      </div>
     </section>
     <footer>
       <a href="https://twitter.com/rosieebob"><img src="images/twitter.png" alt="Twitter Logo" class="twitter social-icon"></a>
@@ -64,5 +68,12 @@
       <p>&copy; 2015 Kristopher Van Sant</p>
     </footer>
     </div>
+    <script type="text/javascript">
+      //auto expand textarea
+      function adjust_textarea(h) {
+          h.style.height = "20px";
+          h.style.height = (h.scrollHeight)+"px";
+      }
+    </script>
   </body>
 </html>
