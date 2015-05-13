@@ -6,28 +6,25 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="style.css">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Roboto+Condensed' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <header>
       <div class="container">
-        <a href="index.html" id="logo">
+        <div  id="logo">
           <h1>Kristopher Van Sant</h1>
           <h2>Front-End Web Developer</h2>
-        </a>
+        </div>
         <div id="social">
           <a href="https://twitter.com/rosieebob"><img src="images/darktwitter.png" alt="Twitter Logo" class="twitter social-icon"></a>
           <a href="https://www.linkedin.com/pub/kristopher-van-sant/58/14/bb4"><img src="images/darklinkedin.png" alt="Linkedin Logo" class="linkedin social-icon"></a>
           <a href="https://github.com/KVanSant"><img src="images/darkgithub.png" alt="Github Logo" class="github social-icon"></a>
-          <a href="#contact"><img src="images/mail.png" alt="Envelope" class="email social-icon"></a>
+          <a href="mailto:me@kristophervansant.com"><img src="images/mail.png" alt="Envelope" class="email social-icon"></a>
         </div> 
       </div>
     </header>
     <div id="wrapper">
-    <section id="about">
-    </section>
     <section id="projects">
       <h3>Projects</h3>
       <div>
@@ -53,32 +50,46 @@
         </ul>
       </div>
     </section>
+    <section id="about">
+      <h3>About</h3>
+      <p>Hi, I'm Kristopher. I'm a front-end web developer currently based in Berkeley, California by way of Marietta, Georgia. With my new found skill set, I'm looking forward to seeing what sort of new web applications I can create and be a part of.</p>
+      <div class="about">
+        <div id="list1">
+          <h4>Some of my skills include:</h4>
+          <ul>
+            <li>HTML5, CSS3, and SASS</li>
+            <li>jQuery</li>
+            <li>JavaScript</li>
+            <li>AngularJS</li>
+            <li>Firebase and AngularFire</li>
+            <li>Heroku</li>
+            <li>Git</li>
+          </ul>
+        </div>
+        <div id="list2">
+          <h4>Other things I enjoy doing:</h4>
+          <ul>
+            <li>Playing with food. That is cooking, baking, and <a href="https://www.pinterest.com/kisstafurr/my-sweets/">cake decorating</a>.</li>
+            <li>Finding and playing indie video games. Currently playing and loving <a href="http://mightanddelight.com/index.php?page=pid">Pid</a>.</li>
+            <li>Playing Star Wars The Card Game with my husband and friends.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--
     <section id="contact">
       <h3>Say hello!</h3>
         <div class="form">
           <div id="form-messages"></div>
-          <form id="ajax-contact" method="post" action="mailer.php">
-              <div class="field">
-                  <label for="name">Name:</label>
-                  <input type="text" id="name" name="name" required>
-              </div>
-
-              <div class="field">
-                  <label for="email">Email:</label>
-                  <input type="email" id="email" name="email" required>
-              </div>
-
-              <div class="field">
-                  <label for="message">Message:</label>
-                  <textarea id="message" name="message" required></textarea>
-              </div>
-
-              <div class="field">
-                  <button type="submit">Send</button>
-              </div>
-          </form>
+          <form  id="ajax-contact" method="post" action="mailer.php">
+            <input type="text" name="name" placeholder="Full Name" />
+            <input type="email" name="email" placeholder="Email" />
+            <textarea placeholder="Message" name="message" onkeyup="adjust_textarea(this)"></textarea>
+            <input type="submit" name="send" value="Send Message" />
+        </form>
       </div>
     </section>
+    -->
     <footer>
       <a href="https://twitter.com/rosieebob"><img src="images/twitter.png" alt="Twitter Logo" class="twitter social-icon"></a>
       <a href="https://www.linkedin.com/pub/kristopher-van-sant/58/14/bb4"><img src="images/linkedin.png" alt="Linkedin Logo" class="linkedin social-icon"></a>
@@ -93,7 +104,5 @@
           h.style.height = (h.scrollHeight)+"px";
       }
     </script>
-    <script src="jquery-2.1.0.min.js"></script>
-    <script src="app.js"></script>
   </body>
 </html>

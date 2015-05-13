@@ -5,6 +5,7 @@ GENERAL
 body {
   font-family: 'Source Sans Pro', sans-serif;
   background-image: url('../images/stardust.png');
+
 }
 
 #wrapper {
@@ -84,23 +85,21 @@ for future image in header
  ***********************************/
 
 
-
-/**********************************
-PORTFOLIO
-***********************************/
-
-
+#projects {
+   margin-bottom: 450px;
+}
 
 h3 {
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1.85em;
+  font-size: 2.25em;
 }
 
 #gallery {
   margin: 0;
   padding: 0;
   list-style: none;
+
 }
 
 #gallery li {
@@ -120,9 +119,58 @@ h3 {
   letter-spacing: 0.04em;
 }
 
+
+
+
+/**********************************
+About
+***********************************/
+
+#about {
+  color: white;
+  font-size: 1.15em;
+}
+
+#about p {
+  width: 60%;
+}
+
+h4 {
+  font-size: 1.65em;
+  margin-bottom: -5px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+#list1 {
+  display: inline-block;
+}
+
+
+#list2 {
+  display: inline-block;
+  float: right;
+  width: 45%;
+}
+
+#list2 ul li a {
+  color: white;
+}
+
+
+#list2 ul li a:hover {
+  letter-spacing: 0.1em;
+  opacity: 0.4;  
+}
+
+/**********************************
+PORTFOLIO
+***********************************/
+
 /**********************************
 CONTACT
-***********************************/
+
 
 #contact {
   margin-top: 500px;
@@ -186,7 +234,7 @@ CONTACT
     background-color: rgba(255,255,255, 0.3);
 }
 
-
+***********************************/
 /**********************************
 FOOTER
 ***********************************/
@@ -221,5 +269,5 @@ footer {
 
 .email {
   width: 32px;
- height: 18px;
+  height: 18px;
 }
