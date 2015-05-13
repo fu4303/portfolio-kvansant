@@ -2,10 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Kristopher Van Sant | Front End Developer</title>
+    <title>Kristopher Van Sant | Front-End Web Developer</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="style.css">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Roboto+Condensed' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
@@ -14,7 +15,7 @@
       <div class="container">
         <a href="index.html" id="logo">
           <h1>Kristopher Van Sant</h1>
-          <h2>Front End Developer</h2>
+          <h2>Front-End Web Developer</h2>
         </a>
         <div id="social">
           <a href="https://twitter.com/rosieebob"><img src="images/darktwitter.png" alt="Twitter Logo" class="twitter social-icon"></a>
@@ -44,7 +45,7 @@
             <p>Real-Time Chat Application.</p> 
           </li>
           <li>
-            <a href="http://morning-refuge-5353.herokuapp.com/">
+            <a href="http://www.brunchandbooze.com/">
               <img src="images/brunchandbooze.png" alt="Brunch and Booze app">
             </a> 
             <p>Food and drink pairing application.</p>
@@ -55,12 +56,27 @@
     <section id="contact">
       <h3>Say hello!</h3>
         <div class="form">
-        <form action="send.php" method="post">
-          <input type="text" name="name" placeholder="Full Name" />
-          <input type="email" name="email" placeholder="Email" />
-          <textarea placeholder="Message" name="message" onkeyup="adjust_textarea(this)"></textarea>
-          <input type="button" name="send" value="Send Message" />
-        </form>
+          <div id="form-messages"></div>
+          <form id="ajax-contact" method="post" action="mailer.php">
+              <div class="field">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+              </div>
+
+              <div class="field">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+              </div>
+
+              <div class="field">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" required></textarea>
+              </div>
+
+              <div class="field">
+                  <button type="submit">Send</button>
+              </div>
+          </form>
       </div>
     </section>
     <footer>
@@ -77,5 +93,7 @@
           h.style.height = (h.scrollHeight)+"px";
       }
     </script>
+    <script src="jquery-2.1.0.min.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
