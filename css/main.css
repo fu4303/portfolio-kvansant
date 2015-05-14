@@ -143,6 +143,8 @@ h4 {
 
 .about {
   font-size: 1.15em;
+  letter-spacing: 0.02em;
+
 }
 
 #list1 {
@@ -158,12 +160,13 @@ h4 {
 
 #list2 ul li a {
   color: white;
+  opacity: 0.6;
 }
 
 
 #list2 ul li a:hover {
   letter-spacing: 0.1em;
-  opacity: 0.4;  
+  opacity: 0.4;
 }
 
 /**********************************
