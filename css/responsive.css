@@ -1,6 +1,30 @@
 /***********Anything bigger than an average smart phone ***********/
 
-@media screen and (min-width: 480px) {
+
+@media screen and (min-width: 400px) {
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2.5em;
+  }
+
+  #list2 {
+    float: left;
+    width: 95%;
+  }
+
+  #about {
+    clear: left;
+  }
+  #about h3 {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (min-width: 800px) {
   
   /****************************
   TWO COLUMN LAYOUT
@@ -16,7 +40,6 @@
     float: right;
   }
   
-
 
   
   /****************************
@@ -41,12 +64,10 @@ header {
 
 h1 {
   margin: 15px 0;
-  font-size: 3em;
   line-height: 0.8em;
 }
 
 h2 {
-  font-size: 2.5em;
   margin: -5px 0 0;
 }
 
@@ -75,6 +96,8 @@ h2 {
   /****************************
   PAGE: ABOUT
   ****************************/
+
+
 #about p {
   width: 60%;
 }
@@ -90,3 +113,5 @@ h2 {
   float: right;
   width: 45%;
 }
+
+
