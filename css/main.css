@@ -59,6 +59,17 @@ h2 {
   font-weight: normal;
 }
 
+#logo a {
+  font-size: 1.85em;
+  color: #2E2E2E;
+  margin-right: 3%;
+}
+
+#logo a:hover {
+  letter-spacing: 0.1em;
+  opacity: 0.8;
+} 
+
 #social {
   padding-top: 5px;
 }
@@ -122,11 +133,22 @@ About
 
 #about {
   color: white;
+  letter-spacing: 0.02em;
 }
 
 #about p {
   font-size: 1.15em;
 }
+
+#about a {
+  color: white;
+  opacity: 0.6;
+}
+
+#about a:hover {
+  letter-spacing: 0.1em;
+  opacity: 0.4;
+} 
 
 h4 {
   font-size: 1.65em;
@@ -136,21 +158,7 @@ h4 {
 
 .about {
   font-size: 1.15em;
-  letter-spacing: 0.02em;
 }
-
-
-#list2 ul li a {
-  color: white;
-  opacity: 0.6;
-}
-
-
-#list2 ul li a:hover {
-  letter-spacing: 0.1em;
-  opacity: 0.4;
-}
-
 
 
 /**********************************
