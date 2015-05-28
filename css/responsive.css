@@ -1,14 +1,15 @@
-/***********Anything bigger than an average smart phone ***********/
+/***********Phone Size and up***********/
 
 
 @media screen and (min-width: 300px) {
 
+
   h1 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   h2 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
   #list2 {
@@ -24,8 +25,14 @@
   }
 }
 
+
+/***********Tablet size and up***********/
+
+
 @media screen and (min-width: 800px) {
   
+
+
   /****************************
   TWO COLUMN LAYOUT
   ****************************/
@@ -65,10 +72,12 @@ header {
 h1 {
   margin: 15px 0;
   line-height: 0.8em;
+  font-size: 3em;
 }
 
 h2 {
   margin: -5px 0 0;
+  font-size: 2.5em;
 }
 
 #social {
