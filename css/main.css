@@ -172,12 +172,19 @@ CONTACT
   display: initial;
 }
 
+#contact p {
+  color: white;
+  letter-spacing: 0.02em; 
+  font-size: 1.15em;
+}
+
 .hidden {
   display: none;
 }
 
 .visible {
   display: initial;
+
 }
 
 .form {
