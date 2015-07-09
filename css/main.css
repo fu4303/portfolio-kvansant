@@ -33,7 +33,6 @@ HEADING
 
 header {
   margin: 0 0 100px 0;
-  padding: 75px 0 100px 0;
   width: 100%;
   background-image: url('../images/cubes.png');
   font-family: 'Roboto Condensed', sans-serif;
@@ -79,18 +78,7 @@ h2 {
   padding-top: 5px;
 }
 
-/**********************************
-for future image in header
-.image {
-  float: right;
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 5%;
-}
 
- ***********************************/
 /**********************************
 PORTFOLIO
 ***********************************/

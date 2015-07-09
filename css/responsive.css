@@ -3,6 +3,24 @@
 
 @media screen and (min-width: 300px) {
 
+  header {
+    padding: 75px 0 100px 0;
+  }
+
+  .rwd-container {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rwd-image-small {
+    display: initial;
+
+  }
+
+  .image{
+    display: none;
+  }
 
   h1 {
     font-size: 2.5em;
@@ -34,12 +52,11 @@
   }
 
 }
-/***********Tablet size and up***********/
+/******************************Tablet size and up***********************************************/
 
 
 @media screen and (min-width: 800px) {
   
-
 
   /****************************
   TWO COLUMN LAYOUT
@@ -63,18 +80,36 @@
 header {
   float: left;
   text-align: left;
+  padding: 15px 0 10px 0;
 } 
 
 .container {
   display: inline-block;
-  width: 45%;
+  width: 55%;
   margin-left: 5%;
+
 }
+
+.container2 {
+  float: right;
+  width: 30%;
+  display: inline-block;
+  margin-right: 5%;
+}
+
+.rwd-image-small {
+  display: none;
+}
+
+.image {
+  display: initial;
+}
+
 
 #logo {
   text-align: left;
   display: block;
-  margin-top: 45px;
+  margin-top: 17%;
 }
 
 h1 {
@@ -112,39 +147,39 @@ h2 {
     clear: left;
   }
   
-  
-  
  
   /****************************
   PAGE: ABOUT
   ****************************/
 
 
-#about p {
-  width: 60%;
-}
+  #about p {
+    width: 60%;
+  }
 
 
-#list1 {
-  display: inline-block;
-}
+  #list1 {
+    display: inline-block;
+  }
 
 
-#list2 {
-  display: inline-block;
-  float: right;
-  width: 45%;
-}
+  #list2 {
+    display: inline-block;
+    float: right;
+    width: 45%;
+  }
 
 
   /****************************
   PAGE: CONTACT
   ****************************/
-#contact {
-  display: initial;
-}
 
-#contact h3 {
-  padding-top: 100px;
-}
+    #contact {
+      display: initial;
+    }
+
+    #contact h3 {
+      padding-top: 100px;
+    }
+
 
