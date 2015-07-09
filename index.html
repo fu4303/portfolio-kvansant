@@ -17,6 +17,13 @@
       ga('create', 'UA-63895900-1', 'auto');
       ga('send', 'pageview');
   </script>
+   <script type="text/javascript">
+      window.onload = (function(){
+          if(window.location.hash == '#thank-you'){
+          document.getElementById('thank-you-message').className = 'visible';
+          }
+      })
+  </script>
   </head>
   <body>
     <header>
@@ -26,6 +33,7 @@
           <h2>Front-End Web Developer</h2>
           <a href="#projects">Projects</a>
           <a href="#about">About</a>
+          <a href="#contact" class="rwd-contact">Contact</a>
         </div>
         <div id="social">
           <a href="https://twitter.com/rosieebob"><img src="images/darktwitter.png" alt="Twitter Logo" class="twitter social-icon"></a>
@@ -63,8 +71,7 @@
     </section>
     <section id="about">
       <h3>About</h3>
-      <p>Hi, I'm Kristopher. I'm a front-end web developer currently based in Berkeley, California by way of Marietta, Georgia. With my new found skill set, I'm looking forward to building unique, and useful web applications. Want to work together? Send me a <a href="mailto:kristopher@signaltransmit.com">message</a>!</p>
-      
+      <p>Hi, I'm Kristopher. I'm a front-end web developer currently based in Berkeley, California by way of Marietta, Georgia. With my new found skill set, I'm looking forward to building unique, and useful web applications. Want to work together? Send me a <a href="mailto:kristopher@signaltransmit.com">message</a>!</p>    
       <div class="about">
         <div id="list1">
           <h4>Some of my skills include:</h4>
@@ -89,19 +96,17 @@
         </div>
       </div>
     </section>
-    <!--
     <section id="contact">
       <h3>Say hello!</h3>
+      <p id='thank-you-message' class='hidden'>Hey! Thank you so much for your message. I look forward to reading it and will be in touch soon.</p>
       <form action="https://getsimpleform.com/messages?form_api_token=9ff9cc89a901255b1c9d6418963032b1" method="post" class="form">
-        <input type='hidden' name='redirect_to' value='http://www.kristophervansant.com/thankyou.html' />
+        <input type='hidden' name='redirect_to' value='www.kristophervansant.com/index.html#thank-you' />
         <input type='text' name='name' placeholder='Your Full Name' />
         <input type='email' name='email' placeholder='Your E-mail Address' />
         <textarea name='message' placeholder='Write your message ...' onkeyup="adjust_textarea(this)"></textarea>
         <input type='submit' name="send" value='Send Message' />
       </form>
-      
     </section>
-    -->
     <footer>
       <a href="https://twitter.com/rosieebob"><img src="images/twitter.png" alt="Twitter Logo" class="twitter social-icon"></a>
       <a href="https://www.linkedin.com/pub/kristopher-van-sant/58/14/bb4"><img src="images/linkedin.png" alt="Linkedin Logo" class="linkedin social-icon"></a>
