@@ -21,6 +21,8 @@
       window.onload = (function(){
           if(window.location.hash == '#thank-you'){
           document.getElementById('thank-you-message').className = 'visible';
+          document.getElementById('say-hello').className = 'hidden';
+
           }
       })
   </script>
@@ -77,7 +79,7 @@
     </section>
     <section id="about">
       <h3>About</h3>
-      <p>Hi, I'm Kristopher. I'm a front-end web developer currently based in Berkeley, California by way of Marietta, Georgia. With my new found skill set, I'm looking forward to building unique, and useful web applications. Want to work together? Send me a <a href="mailto:kristopher@signaltransmit.com">message</a>!</p>    
+      <p>Hi, I'm Kristopher. I'm a front-end web developer currently based in Berkeley, California by way of Marietta, Georgia. With my new found skill set, I look forward to building unique, and useful web applications as well as fun small projects that are purely for kicks and giggles.</p>    
       <div class="about">
         <div id="list1">
           <h4>Some of my skills include:</h4>
@@ -95,15 +97,16 @@
           <h4>Other things I enjoy doing:</h4>
           <ul>
             <li>Playing with food, that is, cooking, baking, and <a href="https://www.pinterest.com/kisstafurr/my-sweets/">cake decorating</a>.</li>
-            <li>Finding and playing indie video games. Currently playing and loving <a href="http://mightanddelight.com/index.php?page=pid">Pid</a>.</li>
+            <li>Finding and playing indie video games. Currently playing <a href="https://www.supergiantgames.com/games/transistor/">Transistor</a> over and over and over again.</li>
             <li>Playing <a href="https://www.fantasyflightgames.com/en/products/star-wars-the-card-game/">Star Wars: The Card Game</a> with my <a href="https://twitter.com/davisvansant">awesome husband</a>.</li>
-            <li>Finding and supporting awesome creative people and companies. Like <a href="http://www.kellymckernan.com/">this</a> artist and <a href="http://www.thegypsytitmouse.com/">this</a> artist. And <a href="http://www.themolassesflood.com/">this</a> new game development company.</li>
+            <li>Finding and supporting amazing creative people and companies. Like <a href="http://www.kellymckernan.com/">this</a> artist and <a href="http://www.thegypsytitmouse.com/">this</a> artist. And <a href="http://www.themolassesflood.com/">this</a> new game development company.</li>
           </ul>
         </div>
       </div>
     </section>
     <section id="contact">
       <h3>Say hello!</h3>
+       <p id="say-hello" class='hide-me'>Want to work together? Me too! Or just want to say hey? Either way, feel free to send me a message.</p>
       <p id="thank-you"></p>
       <p id='thank-you-message' class='hidden'>Hey! Thank you so much for your message. </br> I look forward to reading it and will be in touch soon.</p>
       <form action="https://getsimpleform.com/messages?form_api_token=9ff9cc89a901255b1c9d6418963032b1" method="post" class="form">
