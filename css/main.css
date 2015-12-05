@@ -5,7 +5,7 @@ GENERAL
 body {
   font-family: 'Source Sans Pro', sans-serif;
   background-image: url('../images/stardust.png');
-
+  margin: 0;
 }
 
 #wrapper {
@@ -204,7 +204,7 @@ CONTACT
     border-bottom: 1px solid #ddd;
     background: transparent;
     margin-bottom: 10px;
-    font: 20px;
+    font-size: 16px;
     height: 45px;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
