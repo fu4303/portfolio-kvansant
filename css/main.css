@@ -97,7 +97,7 @@ footer {
 
 .social:hover {
   background-color: #ced8d7cc;
-  border-color: #ced8d7cc;
+  border-color: transparent;
 }
 
 #things li:hover,
