@@ -301,7 +301,7 @@ footer {
     height: 100%;
     text-align: left;
     -ms-grid-rows: 0.35fr 5fr 0.35fr;
-    grid-template-rows: 0.35fr 5fr 0.35fr;
+    grid-template-rows: 1fr 5fr 1fr;
   }
 
   #study {
