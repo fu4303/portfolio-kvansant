@@ -115,6 +115,14 @@ footer {
   margin: 5% 1%;
 }
 
+#study h3 {
+  text-decoration: underline;
+  text-decoration-color: #ced8d7cc;
+}
+
+
+
+
 @supports ((display: -ms-grid) or (display: grid)) {
   h1 {
     margin: 0;
@@ -302,6 +310,7 @@ footer {
     text-align: left;
     -ms-grid-rows: 0.35fr 5fr 0.35fr;
     grid-template-rows: 1fr 5fr 1fr;
+
   }
 
   #study {
