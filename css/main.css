@@ -303,14 +303,14 @@ footer {
     margin-bottom: 0;
   }
 
-  . ptporigin {
+  .ptporigin {
     text-decoration: underline;
     text-decoration-style: dashed;
     text-decoration-color: #ced8d7cc
   }
-  
-li.skills:before {
-  list-style: none;
+
+.skills:before  {
+  content:"";
 }
 
   /* Case Studies */
