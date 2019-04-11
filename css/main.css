@@ -366,11 +366,11 @@ footer {
 
     main {
       grid-template-areas:
-        "clients"
-        "posts"
         "animations"
         "grids"
+        "clients"
         "random"
+        "posts"
         "about-contact";
     }
 
