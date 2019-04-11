@@ -309,8 +309,8 @@ footer {
     text-decoration-color: #ced8d7cc
   }
 
-.skills:before  {
-  content:"";
+#about .skills li:before  {
+  content:" ";
 }
 
   /* Case Studies */
