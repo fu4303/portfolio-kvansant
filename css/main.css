@@ -401,6 +401,11 @@ footer {
 
     #posts {
       border: none;
+      border-bottom: 1px solid #252828;
     }
+    #grids {
+        border-bottom: none;
+    }
+
   }
 }
