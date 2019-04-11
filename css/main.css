@@ -74,7 +74,9 @@ h6 {
 h1 {
   margin-bottom: 2%;
 }
-
+header h1 br {
+  display: none;
+}
 footer {
   display: none;
 }
@@ -368,6 +370,10 @@ footer {
   @media (max-width: 700px) {
     body {
       background-position: center center;
+    }
+
+    header h1 br {
+      display: block;
     }
 
     .container {
