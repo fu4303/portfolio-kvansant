@@ -170,6 +170,7 @@ footer {
     display: grid;
     justify-items: center;
     border: 1px solid #252828;
+    padding: 0 5%;
   }
 
   main div h2 {
