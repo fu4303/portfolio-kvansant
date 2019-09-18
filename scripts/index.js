@@ -8,3 +8,5 @@ function hide(id) {
   document.getElementById(id).style.visibility = "hidden";
   document.getElementById(id).style.opacity = "0";
 }
+
+hi
