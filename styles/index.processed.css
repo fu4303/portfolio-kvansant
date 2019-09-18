@@ -385,6 +385,19 @@ h1 {
   height: 100vh;
   width: 50vw;
 }
+@-moz-document url-prefix() {
+  #grids,
+#passthepen,
+#about,
+#writing,
+#femmes,
+#doodles,
+#rstp,
+#rstc,
+  #shapes {
+    display: none;
+  }
+}
 
 #about {
   background: var(--white) url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/108463/me.png) left center;
