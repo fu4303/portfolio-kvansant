@@ -798,7 +798,6 @@ h1 {
   #social {
     width: 60vw;
   }
-
   #grids,
   #passthepen,
   #about,
@@ -808,7 +807,7 @@ h1 {
   #rstp,
   #rstc,
   #shapes {
-    width: 80vw !important;
+    width: 80vw;
   }
 
        section:last-of-type {
