@@ -798,6 +798,7 @@ h1 {
   #social {
     width: 60vw;
   }
+
   #grids,
   #passthepen,
   #about,
@@ -806,9 +807,10 @@ h1 {
   #doodles,
   #rstp,
   #rstc,
-  #shapes{
-    width: 80vw;
+  #shapes {
+    width: 80vw !important;
   }
+
        section:last-of-type {
           -webkit-clip-path: polygon(0% 50%, 50% 0px, 100% 0%, 100% 100%, 50% 100%);
   clip-path: polygon(0% 50%, 50% 0px, 100% 0%, 100% 100%, 50% 100%);
