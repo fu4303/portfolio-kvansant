@@ -787,3 +787,28 @@ h1 {
     }
   }
 }
+
+
+
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+
+     @media screen and (min-width: 750px) {
+  #social {
+    width: 60vw;
+  }
+
+       section:last-of-type {
+          -webkit-clip-path: polygon(0% 50%, 50% 0px, 100% 0%, 100% 100%, 50% 100%);
+  clip-path: polygon(0% 50%, 50% 0px, 100% 0%, 100% 100%, 50% 100%);
+
+       }
+       section:last-of-type div {
+          width: 100%
+       }
+       section:last-of-type figure {
+         margin-right: 50px;
+       }
+
+  }
+}}
