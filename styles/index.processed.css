@@ -485,6 +485,7 @@ h1 {
 
 #about-content ul {
   padding-left: 40px;
+  column-count: 2;
 }
 
 #back-link {
