@@ -598,6 +598,8 @@ h1 {
 }
 
 @media screen and (max-width: 750px) {
+
+
   #social {
     position: relative;
     width: 90%;
@@ -749,6 +751,9 @@ h1 {
   #social a:hover {
     color: var(--mustard);
     letter-spacing: normal;
+  }
+  #back-link {
+    transform: rotate(0deg);
   }
 }
 
