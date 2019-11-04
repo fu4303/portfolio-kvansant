@@ -485,6 +485,10 @@ h1 {
 
 #about-content ul {
   padding-left: 40px;
+
+}
+
+#about-content ul:first-of-type {
   column-count: 2;
 }
 
